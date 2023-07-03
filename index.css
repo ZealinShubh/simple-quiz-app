@@ -17,12 +17,13 @@ html{
     min-height: 100vh;
     display: grid;
     place-items: center;
-    background-color: #53D8FB;
+    /* background-color: #53D8FB; */
+    background: url('./background.jpg');
 }
 
 .inner-div{
     width: 40vw;
-    background-color: #fff;
+    background-color: #EAF8BF;
     padding: 3rem 8rem;
     border-radius: 2rem;
     box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
@@ -30,7 +31,7 @@ html{
 
 .inner-div h2{
     font-size: 3.5rem;
-    font-weight: 300;
+    font-weight: bold;
     margin: 1rem 0 2rem 0;
 }
 
@@ -71,6 +72,23 @@ input{
     padding: 3rem 4rem;
     border-radius: 0.4rem;
     box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+#showscore h3{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#showscore .btn{
+    margin-top: 1.5rem;
+    padding-top: 3.5%;
+    background-color: #FF5154;
+    cursor: pointer;
+}
+
+#showscore .btn:hover{
+    background-color: #351E29;
+    cursor: pointer;
 }
 
 .scorearea{
