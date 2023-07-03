@@ -94,3 +94,10 @@ input{
 .scorearea{
     display: none;
 }
+
+@media screen and (max-width: 700px){
+    .inner-div{
+        width: 100vw;
+        height:100vh;
+    }
+}
